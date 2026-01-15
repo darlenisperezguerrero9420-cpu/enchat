@@ -1,0 +1,234 @@
+body{
+  background-color: #9c88a6;
+}
+
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #9c5b5b;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  nav a:hover { color: #0b003b; }
+
+/* Esto organiza los iconos en fila */
+.contenedor-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Esto les da la forma circular y el tamaño */
+.boton-social {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white !important; /* El icono siempre será blanco */
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+/* Colores de cada botón */
+.whatsapp { background-color: #25d366; }
+.instagram { background-color: #e4405f; }
+.ubicacion { background-color: #4285f4; }
+.web { background-color: #333333; }
+
+/* Efecto para que se mueva al tocarlo con el mouse */
+.boton-social:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* GENERAL */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a894ad;
+}
+
+/* BANNER */
+.banner{
+    background: linear-gradient(#e8c7d7, #f3dbe5);
+    text-align: center;
+    padding: 40px;
+}
+
+.banner h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+.banner p{
+    font-size: 16px;
+}
+
+/* MENÚ */
+.menu{
+    text-align: center;
+    background-color: #a894ad;
+    padding: 15px;
+}
+
+.menu a{
+    color: #c15a5a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* REDES */
+.redes{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.redes h2{
+    margin-bottom: 20px;
+}
+
+/* ICONOS */
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+/* ESTILO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #9c88a6, #6f577a);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* ENCABEZADO */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #9c88a6;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* SECCIONES */
+section {
+  background-color: #624f7e;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* TITULOS */
+section h2 {
+  margin-top: 0;
+  color: #000000;
+  text-align: center;
+}
+
+/* TEXTO */
+section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* FORMULARIO */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* INPUTS */
+input, textarea {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgb(228, 188, 188);
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #b070f0;
+  box-shadow: 0 0 0 2px rgba(176,112,240,0.3);
+}
+
+/* BOTÓN */
+button {
+  background: linear-gradient(135deg, #b070f0, #7b3fb3);
+  color: rgb(42, 30, 68);
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: rgb(182, 144, 175);
+  font-size: 14px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  section {
+      margin: 20px;
+      padding: 20px;
+  }
+
+  header h1 {
+      font-size: 32px;
+  }
+}

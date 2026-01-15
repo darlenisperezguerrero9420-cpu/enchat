@@ -1,0 +1,234 @@
+/*estilo general*/
+ h1{
+    font-family: cursive;
+    text-align: center;
+ }
+ h3{
+    text-align: center;
+ }
+ body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9c88a6;
+    color: #fdfdfd;
+    overflow-x: hidden;
+    
+ }
+ nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9c5b5b;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav a:hover { color: #0b003b; }
+
+ .contenedor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    background: #c6b5d8;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.card button {
+    background: #af8383;
+    border: 2px solid #333;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: rgb(51, 51, 51);
+    color: white;
+}
+
+
+.makeup img {
+    justify-self:center;
+}
+
+.card{
+ justify-content: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #8e7ba6;
+  }
+  
+  .pagina{
+    max-width: 1200px;
+    margin: auto;
+    background: #8d8298;
+  }
+  
+  /* HERO */
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: linear-gradient(135deg,#3a3143);
+  }
+  
+  .hero img{
+    width: 45%;
+    border-radius: 20px;
+  }
+  
+  .hero-texto{
+    max-width: 45%;
+    color: #4b1f1f;
+  }
+  
+  .hero button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #8b5d5d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* BESTSELLERS */
+  .bestsellers{
+    padding: 50px 30px;
+    text-align: center;
+  }
+  
+  .productos{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .fotos{
+    width: 200px;
+    background: #a687b6;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform .3s, box-shadow .3s;
+  }
+  
+  .fotos:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  }
+  
+  .fotos img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .fotos button{
+    margin-top: 10px;
+    background: #280035;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  /* SALE */
+  .sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5c5a7a;
+    padding: 40px;
+  }
+  
+  .sale img{
+    width: 40%;
+    border-radius: 20px;
+  }
+  
+  .sale-texto button{
+    background: #3c426d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  /* FOOTER */
+  .footer{
+    background: #9e97b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* RESPONSIVE */
+  @media(max-width: 768px){
+    .hero, .sale{
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero img, .sale img{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
